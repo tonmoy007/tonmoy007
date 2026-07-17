@@ -52,9 +52,9 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 > Comprehensive Obsidian vault · 12+ scripture traditions · Cross-referenced analysis
 > `🟢 Active`
 
-### 🤖 bAss
-> Banking chatbot platform · FastAPI / CrewAI / NATS / PostgreSQL
-> `🟡 In Progress`
+### 🕯️ [auri](https://github.com/tonmoy007/auri)
+> Anonymous AI-driven confession booth · Whisper STT · Voice modulation · 3D R3F booth · Telegram delivery
+> `🟢 Active`
 
 <br>
 
