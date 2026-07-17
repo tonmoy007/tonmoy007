@@ -65,12 +65,13 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 
 ### `>> SYS.STATS`
 
-<p align="center">
-  <a href="https://github.com/tonmoy007">
-    <img src="https://github-readme-stats.vercel.app/api?username=tonmoy007&show_icons=true&include_all_commits=true&count_private=true&theme=transparent&title_color=00f5ff&text_color=c0c0e0&icon_color=7b2ff7&border_color=00f5ff&border_radius=8&hide_border=false" width="49%" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tonmoy007&layout=compact&langs_count=8&theme=transparent&title_color=00f5ff&text_color=c0c0e0&icon_color=7b2ff7&border_color=00f5ff&border_radius=8&hide_border=false" width="49%" />
-  </a>
-</p>
+```yaml
+repositories:    41     [########################] 100%
+stars_earned:    11     [######                  ]  27%
+followers:        4     [##                      }   9%
+following:        9     [####                    ]  22%
+commits:        ~500    [##################      ]  78%
+```
 
 <p align="center">
   <a href="https://github.com/tonmoy007">
