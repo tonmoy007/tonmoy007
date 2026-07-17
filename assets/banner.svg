@@ -1,246 +1,165 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="0 0 1000 400">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420">
   <defs>
-    <!-- Core Gradients -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#08080f"/>
-      <stop offset="30%" stop-color="#0a0a1a"/>
-      <stop offset="60%" stop-color="#0f0620"/>
-      <stop offset="100%" stop-color="#08080f"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="50%" stop-color="#0e0e1a"/>
+      <stop offset="100%" stop-color="#080810"/>
     </linearGradient>
-    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00d4ff"/>
-      <stop offset="50%" stop-color="#00f0ff"/>
-      <stop offset="100%" stop-color="#00d4ff"/>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14141f"/>
+      <stop offset="50%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#14141f"/>
     </linearGradient>
-    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7c3aed"/>
-      <stop offset="50%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#7c3aed"/>
+    <linearGradient id="quoteGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff"/>
+      <stop offset="40%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#f472b6"/>
     </linearGradient>
-    <linearGradient id="neonPink" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ec4899"/>
-      <stop offset="50%" stop-color="#f472b6"/>
-      <stop offset="100%" stop-color="#ec4899"/>
-    </linearGradient>
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00d4ff"/>
-      <stop offset="30%" stop-color="#a855f7"/>
-      <stop offset="60%" stop-color="#f472b6"/>
-      <stop offset="100%" stop-color="#00d4ff"/>
-    </linearGradient>
-    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#00d4ff" stop-opacity="1"/>
-      <stop offset="80%" stop-color="#a855f7" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    <linearGradient id="accentBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#00f0ff" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#7c3aed" stop-opacity="1"/>
+      <stop offset="85%" stop-color="#f472b6" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Glow Filters -->
-    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur1"/>
-      <feGaussianBlur stdDeviation="12" result="blur2"/>
+    <filter id="glowCyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur1"/>
+      <feGaussianBlur stdDeviation="8" result="blur2"/>
       <feMerge>
         <feMergeNode in="blur2"/>
         <feMergeNode in="blur1"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <filter id="glowPurple" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <!-- Animations -->
     <style>
-      @keyframes float { 
-        0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0; }
-        10% { opacity: 0.8; }
-        50% { transform: translateY(-30px) translateX(10px); opacity: 1; }
-        90% { opacity: 0.8; }
-        100% { transform: translateY(0px) translateX(0px); opacity: 0; }
-      }
-      @keyframes float2 { 
-        0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0; }
-        10% { opacity: 0.6; }
-        50% { transform: translateY(20px) translateX(-15px); opacity: 0.9; }
-        90% { opacity: 0.6; }
-        100% { transform: translateY(0px) translateX(0px); opacity: 0; }
-      }
-      @keyframes float3 { 
-        0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0; }
-        10% { opacity: 0.4; }
-        50% { transform: translateY(-40px) translateX(-20px); opacity: 0.7; }
-        90% { opacity: 0.4; }
-        100% { transform: translateY(0px) translateX(0px); opacity: 0; }
-      }
-      @keyframes pulse { 
-        0%, 100% { opacity: 0.4; }
-        50% { opacity: 1; }
-      }
-      @keyframes pulseWide { 
-        0%, 100% { opacity: 0.1; transform: scale(1); }
-        50% { opacity: 0.3; transform: scale(1.05); }
-      }
-      @keyframes scanLine { 
-        0% { transform: translateY(-400px); opacity: 0; }
-        10% { opacity: 0.15; }
-        90% { opacity: 0.15; }
-        100% { transform: translateY(400px); opacity: 0; }
-      }
-      @keyframes rotate { 
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
-      @keyframes typing { 
-        0% { width: 0; }
-        100% { width: 290px; }
-      }
-      @keyframes blink { 
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0; }
-      }
-      @keyframes barPulse {
-        0%, 100% { opacity: 0.8; }
-        50% { opacity: 1; }
-      }
-      @keyframes shimmer {
-        0% { background-position: -200% center; }
-        100% { background-position: 200% center; }
-      }
-      .particle { animation: float 6s ease-in-out infinite; }
-      .particle:nth-child(2n) { animation: float2 8s ease-in-out infinite; }
-      .particle:nth-child(3n) { animation: float3 10s ease-in-out infinite; }
-      .pulse { animation: pulse 2s ease-in-out infinite; }
-      .scan { animation: scanLine 4s ease-in-out infinite; }
-      .ring { animation: rotate 20s linear infinite; }
-      .typing-text { animation: typing 3s steps(30) 1s forwards; overflow: hidden; white-space: nowrap; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+      @keyframes floatUp { 0%, 100% { opacity: 0; transform: translateY(0); } 20% { opacity: 0.6; } 80% { opacity: 0.6; } 100% { opacity: 0; transform: translateY(-20px); } }
+      @keyframes scanDown { 0% { transform: translateY(-420px); opacity: 0; } 10% { opacity: 0.08; } 90% { opacity: 0.08; } 100% { transform: translateY(420px); opacity: 0; } }
+      @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+      @keyframes breathe { 0%, 100% { opacity: 0.15; } 50% { opacity: 0.35; } }
       .cursor { animation: blink 1s step-end infinite; }
-      .bar-fill { animation: barPulse 1.5s ease-in-out infinite; }
-      .status-led { animation: pulse 1.5s ease-in-out infinite; }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      .scan { animation: scanDown 3s ease-in-out infinite; }
+      .float-particle { animation: floatUp 4s ease-in-out infinite; }
+      .breathe { animation: breathe 3s ease-in-out infinite; }
     </style>
-
-    <!-- Noise texture -->
-    <filter id="noise">
-      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
-      <feColorMatrix type="saturate" values="0"/>
-      <feComponentTransfer>
-        <feFuncA type="linear" slope="0.03"/>
-      </feComponentTransfer>
-    </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="1000" height="400" fill="url(#bgGrad)"/>
+  <rect width="1000" height="420" fill="url(#bgGrad)" rx="12"/>
 
-  <!-- Noise overlay -->
-  <rect width="1000" height="400" fill="url(#bgGrad)" filter="url(#noise)" opacity="0.5"/>
+  <!-- Terminal window border -->
+  <rect x="15" y="15" width="970" height="390" rx="12" fill="none" stroke="#22223a" stroke-width="1.5"/>
 
-  <!-- Subtle grid -->
-  <g opacity="0.04">
-    <line x1="0" y1="50" x2="1000" y2="50" stroke="#00d4ff" stroke-width="0.5"/>
-    <line x1="0" y1="100" x2="1000" y2="100" stroke="#00d4ff" stroke-width="0.5"/>
-    <line x1="0" y1="150" x2="1000" y2="150" stroke="#00d4ff" stroke-width="0.5"/>
-    <line x1="0" y1="200" x2="1000" y2="200" stroke="#00d4ff" stroke-width="0.5"/>
-    <line x1="0" y1="250" x2="1000" y2="250" stroke="#00d4ff" stroke-width="0.5"/>
-    <line x1="0" y1="300" x2="1000" y2="300" stroke="#00d4ff" stroke-width="0.5"/>
-    <line x1="0" y1="350" x2="1000" y2="350" stroke="#00d4ff" stroke-width="0.5"/>
-    <line x1="100" y1="0" x2="100" y2="400" stroke="#a855f7" stroke-width="0.5"/>
-    <line x1="200" y1="0" x2="200" y2="400" stroke="#a855f7" stroke-width="0.5"/>
-    <line x1="300" y1="0" x2="300" y2="400" stroke="#a855f7" stroke-width="0.5"/>
-    <line x1="400" y1="0" x2="400" y2="400" stroke="#a855f7" stroke-width="0.5"/>
-    <line x1="500" y1="0" x2="500" y2="400" stroke="#a855f7" stroke-width="0.5"/>
-    <line x1="600" y1="0" x2="600" y2="400" stroke="#a855f7" stroke-width="0.5"/>
-    <line x1="700" y1="0" x2="700" y2="400" stroke="#a855f7" stroke-width="0.5"/>
-    <line x1="800" y1="0" x2="800" y2="400" stroke="#a855f7" stroke-width="0.5"/>
-    <line x1="900" y1="0" x2="900" y2="400" stroke="#a855f7" stroke-width="0.5"/>
-  </g>
+  <!-- Title bar -->
+  <rect x="15" y="15" width="970" height="36" rx="12" fill="url(#headerGrad)"/>
+  <rect x="15" y="39" width="970" height="12" fill="url(#headerGrad)"/>
 
-  <!-- Scanning line -->
-  <rect x="0" y="0" width="1000" height="2" fill="#00d4ff" opacity="0.15" class="scan"/>
+  <!-- Window dots -->
+  <circle cx="38" cy="33" r="5.5" fill="#ff5f57"/>
+  <circle cx="58" cy="33" r="5.5" fill="#febc2e"/>
+  <circle cx="78" cy="33" r="5.5" fill="#28c840"/>
 
-  <!-- Floating particles -->
-  <circle cx="150" cy="100" r="2" fill="#00d4ff" class="particle" style="animation-delay: 0s"/>
-  <circle cx="350" cy="300" r="1.5" fill="#a855f7" class="particle" style="animation-delay: 1s"/>
-  <circle cx="650" cy="80" r="2.5" fill="#f472b6" class="particle" style="animation-delay: 2s"/>
-  <circle cx="850" cy="280" r="1.5" fill="#00d4ff" class="particle" style="animation-delay: 0.5s"/>
-  <circle cx="100" cy="350" r="1.8" fill="#a855f7" class="particle" style="animation-delay: 3s"/>
-  <circle cx="500" cy="50" r="2" fill="#f472b6" class="particle" style="animation-delay: 1.5s"/>
-  <circle cx="750" cy="350" r="1.2" fill="#00d4ff" class="particle" style="animation-delay: 2.5s"/>
-  <circle cx="250" cy="200" r="1.5" fill="#a855f7" class="particle" style="animation-delay: 4s"/>
-  <circle cx="920" cy="120" r="2" fill="#f472b6" class="particle" style="animation-delay: 0.8s"/>
-  <circle cx="450" cy="350" r="1.8" fill="#00d4ff" class="particle" style="animation-delay: 3.5s"/>
-
-  <!-- Animated outer rings -->
-  <circle cx="500" cy="150" r="90" fill="none" stroke="#00d4ff" stroke-width="0.5" opacity="0.1" class="ring" style="transform-origin: 500px 150px"/>
-  <circle cx="500" cy="150" r="70" fill="none" stroke="#a855f7" stroke-width="0.5" opacity="0.08" class="ring" style="transform-origin: 500px 150px; animation-direction: reverse; animation-duration: 15s"/>
-
-  <!-- Main title -->
-  <text x="500" y="125" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,sans-serif" font-size="58" font-weight="900" fill="url(#nameGrad)" text-anchor="middle" filter="url(#glowCyan)" letter-spacing="6">
-    SADDAM HOSSAIN
+  <!-- Title -->
+  <text x="500" y="39" font-family="'SF Mono','Courier New',monospace" font-size="12" fill="#555577" text-anchor="middle" letter-spacing="1">
+    AGENT_TERMINAL — v3.0 — deterministic mode
   </text>
 
-  <!-- Glowing underline -->
-  <rect x="200" y="140" width="600" height="1.5" fill="url(#accentLine)" opacity="0.9"/>
+  <!-- Scanning line -->
+  <rect x="15" y="15" width="970" height="2" fill="#00f0ff" opacity="0.06" class="scan"/>
 
-  <!-- Pulse ring under name -->
-  <ellipse cx="500" cy="150" rx="200" ry="30" fill="none" stroke="#00d4ff" stroke-width="0.5" opacity="0.08" class="pulse"/>
-
-  <!-- Subtitle with typing effect -->
-  <g>
-    <text x="500" y="175" font-family="'Courier New', monospace" font-size="15" fill="#00d4ff" text-anchor="middle" opacity="0.85" letter-spacing="3">
-      <tspan>&gt; </tspan>
-      <tspan>AI AGENT INFRASTRUCTURE ENGINEER</tspan>
-    </text>
+  <!-- Boot sequence lines (left column) -->
+  <g font-family="'SF Mono','Courier New',monospace" font-size="11">
+    <text x="35" y="85" fill="#555577">[</text>
+    <text x="41" y="85" fill="#28c840">✓</text>
+    <text x="55" y="85" fill="#555577">] kernel loaded</text>
+    <text x="35" y="103" fill="#555577">[</text>
+    <text x="41" y="103" fill="#28c840">✓</text>
+    <text x="55" y="103" fill="#555577">] agent_core v3.0.1</text>
+    <text x="35" y="121" fill="#555577">[</text>
+    <text x="41" y="121" fill="#28c840">✓</text>
+    <text x="55" y="121" fill="#555577">] model registry: initialized</text>
+    <text x="35" y="139" fill="#555577">[</text>
+    <text x="41" y="139" fill="#00f0ff">→</text>
+    <text x="55" y="139" fill="#555577">] toolchain: live · 14 tools</text>
+    <text x="35" y="157" fill="#555577">[</text>
+    <text x="41" y="157" fill="#00f0ff">→</text>
+    <text x="55" y="157" fill="#555577">] reasoning engine: active</text>
+    <text x="35" y="175" fill="#555577">[</text>
+    <text x="41" y="175" fill="#a855f7">◇</text>
+    <text x="55" y="175" fill="#555577">] session: esoteric-2026-07</text>
   </g>
 
-  <!-- Status bars left -->
-  <g transform="translate(50, 260)">
-    <text x="0" y="0" font-family="'Courier New', monospace" font-size="11" fill="#00d4ff" opacity="0.5">AGENT_ORCHESTRATION</text>
-    <rect x="200" y="-8" width="150" height="10" rx="5" fill="none" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
-    <rect x="200" y="-8" width="120" height="10" rx="5" fill="#00d4ff" opacity="0.4" class="bar-fill"/>
-  </g>
-  <g transform="translate(50, 285)">
-    <text x="0" y="0" font-family="'Courier New', monospace" font-size="11" fill="#a855f7" opacity="0.5">SDLC_PIPELINE</text>
-    <rect x="200" y="-8" width="150" height="10" rx="5" fill="none" stroke="#a855f7" stroke-width="0.5" opacity="0.3"/>
-    <rect x="200" y="-8" width="135" height="10" rx="5" fill="#a855f7" opacity="0.4" class="bar-fill" style="animation-delay: 0.3s"/>
-  </g>
-  <g transform="translate(50, 310)">
-    <text x="0" y="0" font-family="'Courier New', monospace" font-size="11" fill="#f472b6" opacity="0.5">NLP_OCR</text>
-    <rect x="200" y="-8" width="150" height="10" rx="5" fill="none" stroke="#f472b6" stroke-width="0.5" opacity="0.3"/>
-    <rect x="200" y="-8" width="105" height="10" rx="5" fill="#f472b6" opacity="0.4" class="bar-fill" style="animation-delay: 0.6s"/>
+  <!-- Status panel (right side) -->
+  <g font-family="'SF Mono','Courier New',monospace" font-size="10">
+    <rect x="780" y="75" width="185" height="110" rx="6" fill="#12121e" stroke="#1e1e32" stroke-width="1"/>
+
+    <text x="792" y="95" fill="#444466">SESSION</text>
+    <text x="860" y="95" fill="#a855f7">ACTIVE</text>
+    <circle cx="940" cy="91" r="3.5" fill="#28c840" class="pulse"/>
+
+    <text x="792" y="115" fill="#444466">MODEL</text>
+    <text x="860" y="115" fill="#00f0ff">opencode-zen</text>
+
+    <text x="792" y="135" fill="#444466">MODE</text>
+    <text x="860" y="135" fill="#f472b6">deterministic</text>
+
+    <text x="792" y="155" fill="#444466">PROVIDER</text>
+    <text x="860" y="155" fill="#7c3aed">big-pickle</text>
+
+    <text x="792" y="175" fill="#444466">UPTIME</text>
+    <text x="860" y="175" fill="#555577">14d : 07h : 32m</text>
   </g>
 
-  <!-- Status indicators right -->
-  <g transform="translate(720, 260)">
-    <circle cx="10" cy="0" r="4" fill="#00ff88" class="status-led"/>
-    <text x="25" y="4" font-family="'Courier New', monospace" font-size="12" fill="#00ff88" opacity="0.8">SYSTEM ONLINE</text>
-  </g>
-  <g transform="translate(720, 285)">
-    <circle cx="10" cy="0" r="4" fill="#00d4ff" class="status-led" style="animation-delay: 0.5s"/>
-    <text x="25" y="4" font-family="'Courier New', monospace" font-size="12" fill="#00d4ff" opacity="0.8">12-STAGE PIPELINE</text>
-  </g>
-  <g transform="translate(720, 310)">
-    <circle cx="10" cy="0" r="4" fill="#f472b6" class="status-led" style="animation-delay: 1s"/>
-    <text x="25" y="4" font-family="'Courier New', monospace" font-size="12" fill="#f472b6" opacity="0.8">GUARDED BOUNDARY</text>
-  </g>
+  <!-- Separator line -->
+  <line x1="35" y1="200" x2="965" y2="200" stroke="#1e1e32" stroke-width="1"/>
 
-  <!-- Bottom accent bar -->
-  <rect x="0" y="395" width="1000" height="3" fill="url(#accentLine)"/>
+  <!-- Prompt symbol -->
+  <text x="35" y="228" font-family="'SF Mono','Courier New',monospace" font-size="14" fill="#28c840">$</text>
+  <text x="52" y="228" font-family="'SF Mono','Courier New',monospace" font-size="13" fill="#555577">think</text>
+  <text x="95" y="228" font-family="'SF Mono','Courier New',monospace" font-size="13" fill="#555577" font-style="italic">--mode=philosophical</text>
 
-  <!-- Bottom status line -->
-  <text x="50" y="380" font-family="'Courier New', monospace" font-size="10" fill="#a855f7" opacity="0.3">[SYS: OPTIMAL] [UPTIME: 24/7] [v3.0 AGENT_CORE]</text>
-  <text x="830" y="380" font-family="'Courier New', monospace" font-size="10" fill="#00d4ff" opacity="0.3">protocol: ssh port: 22</text>
+  <!-- Output line -->
+  <text x="52" y="255" font-family="'SF Mono','Courier New',monospace" font-size="13" fill="#555577">└─&gt;</text>
+  <text x="88" y="255" font-family="'SF Mono','Courier New',monospace" font-size="13" fill="#555577">resolving...</text>
 
-  <!-- Blinking cursor at bottom -->
-  <text x="870" y="380" font-family="'Courier New', monospace" font-size="12" fill="#00d4ff" opacity="0.5" class="cursor">_</text>
+  <!-- The quote - main philosophical statement -->
+  <text x="500" y="305" font-family="'SF Mono','Courier New',monospace" font-size="22" fill="url(#quoteGrad)" text-anchor="middle" font-weight="700" filter="url(#glowCyan)" letter-spacing="2">
+    Code is a theory of reality
+  </text>
+  <text x="500" y="335" font-family="'SF Mono','Courier New',monospace" font-size="22" fill="url(#quoteGrad)" text-anchor="middle" font-weight="700" filter="url(#glowCyan)" letter-spacing="2">
+    that we run.
+  </text>
+
+  <!-- Attribution -->
+  <text x="500" y="360" font-family="'SF Mono','Courier New',monospace" font-size="11" fill="#444466" text-anchor="middle" opacity="0.6">
+    ~ unknown engineer, sometime after midnight
+  </text>
+
+  <!-- Bottom status bar -->
+  <rect x="15" y="376" width="970" height="28" rx="0" fill="#14141f"/>
+  <rect x="15" y="376" width="970" height="28" rx="12" fill="#14141f"/>
+  <rect x="15" y="390" width="970" height="14" fill="#14141f"/>
+
+  <text x="35" y="394" font-family="'SF Mono','Courier New',monospace" font-size="10" fill="#444466">NORMAL</text>
+  <text x="100" y="394" font-family="'SF Mono','Courier New',monospace" font-size="10" fill="#28c840">●</text>
+  <text x="110" y="394" font-family="'SF Mono','Courier New',monospace" font-size="10" fill="#444466">all systems nominal</text>
+
+  <text x="500" y="394" font-family="'SF Mono','Courier New',monospace" font-size="10" fill="#444466" text-anchor="middle">mode: deterministic | temp: 0.2 | tokens: ~infinity</text>
+
+  <text x="880" y="394" font-family="'SF Mono','Courier New',monospace" font-size="10" fill="#444466">AGENT_TERMINAL v3.0</text>
+  <circle cx="952" cy="390" r="2.5" fill="#00f0ff" class="pulse"/>
+
+  <!-- Cursor -->
+  <text x="500" y="394" font-family="'SF Mono','Courier New',monospace" font-size="12" fill="#00f0ff" class="cursor">_</text>
 </svg>

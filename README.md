@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
-    <img src="assets/banner.svg" alt="SADDAM HOSSAIN — AI Agent Infrastructure Engineer" width="100%">
+    <img src="assets/banner.svg" alt="AGENT_TERMINAL — philosophical banner" width="100%">
   </picture>
 </p>
 
