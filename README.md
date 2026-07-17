@@ -1,120 +1,129 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
-    <img src="assets/banner.svg" alt="SADDAM HOSSAIN - AI Agent Infrastructure Engineer" width="100%">
+    <img src="assets/banner.svg" alt="SADDAM HOSSAIN — AI Agent Infrastructure Engineer" width="100%">
   </picture>
 </p>
 
-```ascii
-╔══════════════════════════════════════════════════════════════════════╗
-║                        SYSTEM PROFILE v2.0                          ║
-║  ID: tonmoy007  │  ROLE: Lead Software Engineer  │  LOC: BANGLADESH ║
-║  ORG: Polygon Technology  │  FOCUS: AI Agent Infrastructure         ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+<br>
 
----
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td width="50%" valign="top">
 
-### `>> INIT.ABOUT`
+### 👨‍💻 About
 
-```yaml
-designation: "Lead Software Engineer"
-org:
-  name: "Polygon Technology"
-  url: "https://polygontechnology.io"
-location: "Bangladesh"
-focus: "Deterministic AI-agent infrastructure"
-stack: ["SDLC Orchestration", "NLP/LLM", "OCR", "Agent Pipelines"]
-status: "BUILDING 🔨"
-```
+**Lead Software Engineer** @ [Polygon Technology](https://polygontechnology.io)
 
-I engineer **deterministic infrastructure for AI agent workflows** — gated SDLC pipelines that make agent-driven development auditable, replayable, and production-safe. From orchestration engines to high-throughput scraping systems, I build the layer between AI decisions and production reality.
+I engineer deterministic infrastructure for AI agent workflows — gated SDLC pipelines that make agent-driven development auditable, replayable, and production-safe. From orchestration engines to high-throughput scraping systems, I build the layer between AI decisions and production reality.
 
----
+📍 Bangladesh &nbsp;·&nbsp; 🐙 [@tonmoy007](https://github.com/tonmoy007) &nbsp;·&nbsp; 💼 [in/tonmoy46](https://linkedin.com/in/tonmoy46)
 
-### `>> CORE.STACK`
+    </td>
+    <td width="10%"></td>
+    <td width="40%" valign="top">
 
-<p align="center">
-  <img src="https://img.shields.io/badge/PYTHON-00f5ff?style=for-the-badge&logo=python&logoColor=000&labelColor=0a0a2e" />
-  <img src="https://img.shields.io/badge/FASTAPI-00f5ff?style=for-the-badge&logo=fastapi&logoColor=000&labelColor=0a0a2e" />
-  <img src="https://img.shields.io/badge/DOCKER-00f5ff?style=for-the-badge&logo=docker&logoColor=000&labelColor=0a0a2e" />
-  <img src="https://img.shields.io/badge/POSTGRESQL-00f5ff?style=for-the-badge&logo=postgresql&logoColor=000&labelColor=0a0a2e" />
-  <img src="https://img.shields.io/badge/NATS-00f5ff?style=for-the-badge&logo=nats&logoColor=000&labelColor=0a0a2e" />
-  <img src="https://img.shields.io/badge/OLLAMA-7b2ff7?style=for-the-badge&logo=ollama&logoColor=fff&labelColor=0a0a2e" />
-  <img src="https://img.shields.io/badge/CREWAI-7b2ff7?style=for-the-badge&logo=createreactapp&logoColor=fff&labelColor=0a0a2e" />
-  <img src="https://img.shields.io/badge/CLAUDE%20CODE-7b2ff7?style=for-the-badge&logo=anthropic&logoColor=fff&labelColor=0a0a2e" />
-  <img src="https://img.shields.io/badge/MCP_PROTOCOL-ff00a0?style=for-the-badge&logo=modelcontextprotocol&logoColor=fff&labelColor=0a0a2e" />
-  <img src="https://img.shields.io/badge/NLP%2FLLM-ff00a0?style=for-the-badge&logo=huggingface&logoColor=fff&labelColor=0a0a2e" />
-  <img src="https://img.shields.io/badge/OCR-00ff88?style=for-the-badge&logo=tesseract&logoColor=000&labelColor=0a0a2e" />
-  <img src="https://img.shields.io/badge/TYPESCRIPT-00ff88?style=for-the-badge&logo=typescript&logoColor=000&labelColor=0a0a2e" />
-  <img src="https://img.shields.io/badge/AGENTS-ff00a0?style=for-the-badge&logo=cloudflare&logoColor=fff&labelColor=0a0a2e" />
+### 🛠 Core Stack
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=nats&logoColor=white" />
+  <img src="https://img.shields.io/badge/CrewAI-FF6F00?style=flat-square&logo=createreactapp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude%20Code-7C3AED?style=flat-square&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/NLP/LLM-6B46C1?style=flat-square&logo=huggingface&logoColor=white" />
+  <img src="https://img.shields.io/badge/OCR-34A853?style=flat-square&logo=tesseract&logoColor=white" />
+  <img src="https://img.shields.io/badge/MCP-EB459E?style=flat-square&logo=protocol&logoColor=white" />
 </p>
 
----
+    </td>
+  </tr>
+</table>
 
-### `>> ACTIVE.DEPLOYMENTS`
-
-| MODULE | STATUS | DESCRIPTION |
-|:-------|:------:|:------------|
-| **[forge-os](https://github.com/tonmoy007/forge-os)** | `🟢 ACTIVE` | Local-first SDLC orchestration CLI · 12-stage lifecycle · Quality gates · Replayable agent runs |
-| **[forge-plugins](https://github.com/tonmoy007/forge-plugins)** | `🟢 ACTIVE` | Gated orchestrator for Claude Code · REQ-ID traceability · Cost-capped background agents |
-| **[religious-study](https://github.com/tonmoy007/religious-study)** | `🟢 ACTIVE` | Obsidian vault · 12+ scripture traditions · Cross-referenced analysis · Digital humanities |
-| **bAss** *(private)* | `🟡 IN PROGRESS` | Banking chatbot · FastAPI / CrewAI / NATS / PostgreSQL |
+<br>
 
 ---
 
-### `>> SYS.STATS`
+## 📦 Featured Work
 
-```yaml
-repositories:    41     [########################] 100%
-stars_earned:    11     [######                  ]  27%
-followers:        4     [##                      }   9%
-following:        9     [####                    ]  22%
-commits:        ~500    [##################      ]  78%
-```
+<br>
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td width="33%" valign="top" align="center">
+
+### 🔧 [forge-os](https://github.com/tonmoy007/forge-os)
+> Local-first SDLC orchestration CLI · 12-stage lifecycle  
+> Quality gates · Replayable agent runs  
+> `🟢 Active`
+
+    </td>
+    <td width="33%" valign="top" align="center">
+
+### 🔌 [forge-plugins](https://github.com/tonmoy007/forge-plugins)
+> Gated orchestrator for Claude Code  
+> REQ-ID traceability · Cost-capped agents  
+> `🟢 Active`
+
+    </td>
+    <td width="33%" valign="top" align="center">
+
+### 📚 [religious-study](https://github.com/tonmoy007/religious-study)
+> Obsidian vault · 12+ scripture traditions  
+> Cross-referenced · Digital humanities  
+> `🟢 Active`
+
+    </td>
+  </tr>
+</table>
+
+<br>
+
+---
+
+## 📊 Activity
 
 <p align="center">
   <a href="https://github.com/tonmoy007">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=tonmoy007&bg_color=0d0d1a&color=00f5ff&line=7b2ff7&point=ff00a0&area=true&area_color=00f5ff&hide_border=true&radius=8" width="98%" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=tonmoy007&bg_color=0d0d1a&color=00d4ff&line=a855f7&point=f472b6&area=true&area_color=00d4ff&hide_border=true&radius=8" width="98%" />
   </a>
 </p>
-
----
-
-### `>> ACHIEVEMENT.UNLOCKED`
-
-<p align="center">
-  <img src="https://img.shields.io/badge/PAIR%20EXTRAORDINAIRE-x2-00f5ff?style=flat-square&labelColor=0a0a2e" />
-  <img src="https://img.shields.io/badge/PULL%20SHARK-x2-7b2ff7?style=flat-square&labelColor=0a0a2e" />
-  <img src="https://img.shields.io/badge/YOLO-ff00a0?style=flat-square&labelColor=0a0a2e" />
-</p>
-
----
-
-### `>> COMM.CHANNELS`
-
-<p align="center">
-  <a href="https://linkedin.com/in/tonmoy46">
-    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=fff&labelColor=0a0a2e" />
-  </a>
-  <a href="https://polygontechnology.io">
-    <img src="https://img.shields.io/badge/WEBSITE-4285F4?style=for-the-badge&logo=googlechrome&logoColor=fff&labelColor=0a0a2e" />
-  </a>
-  <a href="https://github.com/tonmoy007">
-    <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=fff&labelColor=0a0a2e" />
-  </a>
-</p>
-
----
 
 <p align="center">
   <sub>
-    <code>PROFILE v2.0 // AGENT_CORE // </code>
-    <img src="https://komarev.com/ghpvc/?username=tonmoy007&label=SCANS&color=00f5ff&style=flat-square" alt="profile views" />
-    <code> // LAST_BOOT: 2026</code>
+    <code>41 repos</code> &nbsp;·&nbsp; <code>11 stars</code> &nbsp;·&nbsp; <code>4 followers</code> &nbsp;·&nbsp; 
+    <img src="https://komarev.com/ghpvc/?username=tonmoy007&label=views&color=00d4ff&style=flat-square" alt="profile views" />
   </sub>
 </p>
 
+<br>
+
+---
+
+## 🏆 Achievements
+
 <p align="center">
-  <sub><i>═══  SYSTEM OPERATIONAL  ═══</i></sub>
+  <img src="https://img.shields.io/badge/Pair%20Extraordinaire-x2-00d4ff?style=flat-square&labelColor=0d0d1a" />
+  <img src="https://img.shields.io/badge/Pull%20Shark-x2-a855f7?style=flat-square&labelColor=0d0d1a" />
+  <img src="https://img.shields.io/badge/YOLO-f472b6?style=flat-square&labelColor=0d0d1a" />
+</p>
+
+<br>
+
+---
+
+## 📬 Connect
+
+<p align="center">
+  <a href="https://linkedin.com/in/tonmoy46"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://polygontechnology.io"><img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://github.com/tonmoy007"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <sub><i>© 2026 Saddam Hossain · Built with ☕ and code</i></sub>
 </p>
