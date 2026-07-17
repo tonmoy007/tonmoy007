@@ -69,6 +69,13 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 </p>
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/snake.svg">
+    <img src="assets/snake.svg" alt="contribution snake animation" width="70%">
+  </picture>
+</p>
+
+<p align="center">
   <sub>
     <code>41 repos</code> &nbsp;·&nbsp; <code>11 stars</code> &nbsp;·&nbsp; <code>4 followers</code> &nbsp;·&nbsp;
     <img src="https://komarev.com/ghpvc/?username=tonmoy007&label=views&color=00d4ff&style=flat-square" alt="profile views" />
