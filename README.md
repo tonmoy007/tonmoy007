@@ -76,10 +76,9 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 </p>
 
 <p align="center">
-  <sub>
-    <code>41 repos</code> &nbsp;·&nbsp; <code>11 stars</code> &nbsp;·&nbsp; <code>4 followers</code> &nbsp;·&nbsp;
-    <img src="https://komarev.com/ghpvc/?username=tonmoy007&label=views&color=00d4ff&style=flat-square" alt="profile views" />
-  </sub>
+![Stats](./assets/stats.svg)
+![Top Languages](./assets/top-langs.svg)
+![Pinned](./assets/pin-stats-organization-github-readme-stats.svg)
 </p>
 
 <br>
