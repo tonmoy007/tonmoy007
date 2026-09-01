@@ -55,18 +55,18 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
         </tr>
     </table>
 </p>-->
-<div align="center">
+<div align="center" width="100%">
   <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
     <a href="https://github.com/tonmoy007/forge-plugins">
-      <img src="assets/pin-stats-forge-plugins-github-readme-stats.svg" alt="repo stats" width="280px">
+      <img src="assets/pin-stats-forge-plugins-github-readme-stats.svg" alt="repo stats" width="45%">
     </a>
     <a href="https://github.com/tonmoy007/religious-study">
-      <img src="assets/pin-stats-religious-study-github-readme-stats.svg" alt="repo stats" width="280px">
+      <img src="assets/pin-stats-religious-study-github-readme-stats.svg" alt="repo stats" width="45%">
     </a>
   </div>
   <div style="margin-top: 20px;">
     <a href="https://github.com/tonmoy007/auri">
-      <img src="assets/pin-stats-auri-github-readme-stats.svg" alt="repo stats" width="280px">
+      <img src="assets/pin-stats-auri-github-readme-stats.svg" alt="repo stats" width="45%">
     </a>
   </div>
 </div>
@@ -78,7 +78,7 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 
 ## 📊 Activity & Stats
 
-<p align="center">
+<!--<p align="center">
   <table border="0" align="center">
     <tr>
       <td valign="middle" align="center">
@@ -95,7 +95,13 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
       </td>
     </tr>
   </table>
-</p>
+</p>-->
+<div align="center">
+    <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+        <img src="assets/stats.svg" alt="profile stats" width="45%">
+        <img src="assets/top-langs.svg" alt="top languages" width="45%">
+    </div>
+</div>
 
 <br>
 
