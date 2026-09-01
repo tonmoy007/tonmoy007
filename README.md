@@ -18,6 +18,7 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 
 📍 Bangladesh · 🐙 [@tonmoy007](https://github.com/tonmoy007) · 💼 [in/tonmoy46](https://linkedin.com/in/tonmoy46)
 
+
 <br>
 
 ## 🛠 Core Stack
@@ -54,28 +55,22 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
         </tr>
     </table>
 </p>-->
-<div align="center">
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-    <div style="flex-basis: 50%; min-width: 300px; box-sizing: border-box;">
-      <a href="https://github.com/tonmoy007/forge-plugins">
-        <img src="assets/pin-stats-forge-plugins-github-readme-stats.svg" alt="repo stats" width="100%">
-      </a>
-    </div>
-    <div style="flex-basis: 50%; min-width: 300px; box-sizing: border-box;">
-      <a href="https://github.com/tonmoy007/religious-study">
-        <img src="assets/pin-stats-religious-study-github-readme-stats.svg" alt="repo stats" width="100%">
-      </a>
-    </div>
+<div align="center" width="100%">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+    <a href="https://github.com/tonmoy007/forge-plugins">
+      <img src="assets/pin-stats-forge-plugins-github-readme-stats.svg" alt="repo stats" width="50%">
+    </a>
+    <a href="https://github.com/tonmoy007/religious-study">
+      <img src="assets/pin-stats-religious-study-github-readme-stats.svg" alt="repo stats" width="50%">
+    </a>
   </div>
+  <div style="margin-top: 20px;">
+    <a href="https://github.com/tonmoy007/auri">
+      <img src="assets/pin-stats-auri-github-readme-stats.svg" alt="repo stats" width="50%">
+    </a>
+  </div>
+</div>
 
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 20px;">
-    <div style="flex-basis: 50%; min-width: 300px; box-sizing: border-box;">
-      <a href="https://github.com/tonmoy007/auri">
-        <img src="assets/pin-stats-auri-github-readme-stats.svg" alt="repo stats" width="100%">
-      </a>
-    </div>
-  </div>
-  </div>
 
 <br>
 
@@ -102,9 +97,9 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
   </table>
 </p>-->
 <div align="center">
-    <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: center;">
-        <img src="assets/stats.svg" alt="profile stats" width="45%">
-        <img src="assets/top-langs.svg" alt="top languages" width="45%">
+    <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+        <img src="assets/stats.svg" alt="profile stats" width="50%">
+        <img src="assets/top-langs.svg" alt="top languages" width="50%">
     </div>
 </div>
 
@@ -116,6 +111,7 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
     <img src="assets/snake.svg" alt="contribution snake animation" width="70%">
   </picture>
 </p>
+
 
 <br>
 
