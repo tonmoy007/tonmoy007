@@ -45,7 +45,7 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 ## 📦 Featured Work
 
 <p align="center">
-    <table border=0>
+    <table align="center" border=0>
         <tr>
             <td valign="middle" align="center" border="none"><a href="https://github.com/tonmoy007/forge-plugins"><img src="assets/pin-stats-forge-plugins-github-readme-stats.svg" alt="repo stats" width="100%"></a></td>
             <td valign="middle" align="center" border="none"><a href="https://github.com/tonmoy007/religious-study"><img src="assets/pin-stats-religious-study-github-readme-stats.svg" alt="repo stats" width="100%"></a></td>
@@ -65,7 +65,7 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 ## 📊 Activity & Stats
 
 <p align="center">
-  <table border="0">
+  <table border="0" align="center">
     <tr>
       <td valign="middle" align="center">
         <picture>
@@ -82,6 +82,8 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
     </tr>
   </table>
 </p>
+
+<br>
 
 <p align="center">
   <picture>
