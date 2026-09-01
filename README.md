@@ -47,11 +47,11 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 <p align="center">
     <table>
         <tr>
-            <td valign="middle" align="center"><a href="https://github.com/tonmoy007/forge-plugins"><img src="assets/pin-stats-forge-plugins-github-readme-stats.svg" alt="repo stats" width="100%"></a></td>
-            <td valign="middle" align="center"><a href="https://github.com/tonmoy007/religious-study"><img src="assets/pin-stats-religious-study-github-readme-stats.svg" alt="repo stats" width="100%"></a></td>
+            <td valign="middle" align="center" border="none"><a href="https://github.com/tonmoy007/forge-plugins"><img src="assets/pin-stats-forge-plugins-github-readme-stats.svg" alt="repo stats" width="100%"></a></td>
+            <td valign="middle" align="center" border="none"><a href="https://github.com/tonmoy007/religious-study"><img src="assets/pin-stats-religious-study-github-readme-stats.svg" alt="repo stats" width="100%"></a></td>
         </tr>
         <tr>
-            <td valign="middle" align="center"><a href="https://github.com/tonmoy007/auri"><img src="assets/pin-stats-auri-github-readme-stats.svg" alt="repo stats" width="100%"></a></td>
+            <td valign="middle" align="center" border="none"><a href="https://github.com/tonmoy007/auri"><img src="assets/pin-stats-auri-github-readme-stats.svg" alt="repo stats" width="100%"></a></td>
         </tr>
     </table>
 </p>
