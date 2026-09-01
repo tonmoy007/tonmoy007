@@ -13,8 +13,11 @@
 
 I engineer **deterministic infrastructure for AI agent workflows** — gated SDLC pipelines that make agent-driven development auditable, replayable, and production-safe. From orchestration engines to high-throughput scraping systems, I build the layer between AI decisions and production reality.
 
-📍 Bangladesh · 🐙 [@tonmoy007](https://github.com/tonmoy007) · 💼 [in/tonmoy46](https://linkedin.com/in/tonmoy46) ·  <img src="https://komarev.com/ghpvc/?username=tonmoy007&label=views&color=00d4ff&style=flat-square" alt="profile views" />
+📍 Bangladesh · 🐙 [@tonmoy007](https://github.com/tonmoy007) · 💼 [in/tonmoy46](https://linkedin.com/in/tonmoy46)
 
+<p align="right">
+    <img src="https://komarev.com/ghpvc/?username=tonmoy007&label=views&color=00d4ff&style=flat-square" alt="profile views" />
+</p>
 <br>
 
 ## 🛠 Core Stack
@@ -40,41 +43,19 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 
 ## 📦 Featured Work
 
-### 🔌 [forge-plugins](https://github.com/tonmoy007/forge-plugins)
-
 <p align="center">
-    <picture>
-        <source
-          srcset="assets/pin-stats-forge-plugins-github-readme-stats.svg"
-          media="(prefers-color-scheme: dark)"
-        />
-        <img src="assets/pin-stats-forge-plugins-github-readme-stats.svg" alt="repo stats" width="30%">
-      </picture>
+    <table>
+        <tr>
+            <td valign="middle" align="center"><a href="https://github.com/tonmoy007/forge-plugins"><img src="assets/pin-stats-forge-plugins-github-readme-stats.svg" alt="repo stats" width="30%"></a></td>
+            <td valign="middle" align="center"><a href="https://github.com/tonmoy007/religious-study"><img src="assets/pin-stats-religious-study-github-readme-stats.svg" alt="repo stats" width="30%"></a></td>
+        </tr>
+        <tr>
+            <td valign="middle" align="center"><a href="https://github.com/tonmoy007/auri"><img src="assets/pin-stats-auri-github-readme-stats.svg" alt="repo stats" width="30%"></a></td>
+        </tr>
+    </table>
 </p>
 
-### 📚 [religious-study](https://github.com/tonmoy007/religious-study)
 
-<p align="center">
-    <picture>
-        <source
-          srcset="assets/pin-stats-religious-study-github-readme-stats.svg"
-          media="(prefers-color-scheme: dark)"
-        />
-        <img src="assets/pin-stats-religious-study-github-readme-stats.svg" alt="repo stats" width="30%">
-      </picture>
-</p>
-
-### 🕯️ [auri](https://github.com/tonmoy007/auri)
-
-<p align="center">
-    <picture>
-        <source
-          srcset="assets/pin-stats-auri-github-readme-stats.svg"
-          media="(prefers-color-scheme: dark)"
-        />
-        <img src="assets/pin-stats-auri-github-readme-stats.svg" alt="repo stats" width="30%">
-      </picture>
-</p>
 
 <br>
 
@@ -85,13 +66,13 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 <p align="center">
   <table>
     <tr>
-      <td valign="top" align="center">
+      <td valign="middle" align="center">
         <picture>
           <source srcset="assets/stats.svg" media="(prefers-color-scheme: dark)" />
           <img src="assets/stats.svg" alt="profile stats" width="100%">
         </picture>
       </td>
-      <td valign="top" align="center">
+      <td valign="middle" align="center">
         <picture>
           <source srcset="assets/top-langs.svg" media="(prefers-color-scheme: dark)" />
           <img src="assets/top-langs.svg" alt="top languages" width="100%"/>
