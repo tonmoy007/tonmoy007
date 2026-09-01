@@ -1,3 +1,6 @@
+<p align="right">
+    <img src="https://komarev.com/ghpvc/?username=tonmoy007&label=views&color=00d4ff&style=flat-square" alt="profile views" />
+</p>
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
@@ -15,9 +18,7 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 
 📍 Bangladesh · 🐙 [@tonmoy007](https://github.com/tonmoy007) · 💼 [in/tonmoy46](https://linkedin.com/in/tonmoy46)
 
-<p align="right">
-    <img src="https://komarev.com/ghpvc/?username=tonmoy007&label=views&color=00d4ff&style=flat-square" alt="profile views" />
-</p>
+
 <br>
 
 ## 🛠 Core Stack
@@ -46,11 +47,11 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 <p align="center">
     <table>
         <tr>
-            <td valign="middle" align="center"><a href="https://github.com/tonmoy007/forge-plugins"><img src="assets/pin-stats-forge-plugins-github-readme-stats.svg" alt="repo stats" width="30%"></a></td>
-            <td valign="middle" align="center"><a href="https://github.com/tonmoy007/religious-study"><img src="assets/pin-stats-religious-study-github-readme-stats.svg" alt="repo stats" width="30%"></a></td>
+            <td valign="middle" align="center"><a href="https://github.com/tonmoy007/forge-plugins"><img src="assets/pin-stats-forge-plugins-github-readme-stats.svg" alt="repo stats" width="100%"></a></td>
+            <td valign="middle" align="center"><a href="https://github.com/tonmoy007/religious-study"><img src="assets/pin-stats-religious-study-github-readme-stats.svg" alt="repo stats" width="100%"></a></td>
         </tr>
         <tr>
-            <td valign="middle" align="center"><a href="https://github.com/tonmoy007/auri"><img src="assets/pin-stats-auri-github-readme-stats.svg" alt="repo stats" width="30%"></a></td>
+            <td valign="middle" align="center"><a href="https://github.com/tonmoy007/auri"><img src="assets/pin-stats-auri-github-readme-stats.svg" alt="repo stats" width="100%"></a></td>
         </tr>
     </table>
 </p>
