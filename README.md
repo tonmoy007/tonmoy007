@@ -60,13 +60,11 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 
 ---
 
-## 📊 Activity
+## 📊 Activity & Stats
 
-<p align="center">
-  <a href="https://github.com/tonmoy007">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=tonmoy007&bg_color=0d0d1a&color=00d4ff&line=a855f7&point=f472b6&area=true&area_color=00d4ff&hide_border=true&radius=8" width="98%" />
-  </a>
-</p>
+![Stats](./profile/stats.svg)
+![Top Languages](./profile/top-langs.svg)
+![Pinned](./profile/pin-stats-organization-github-readme-stats.svg)
 
 <p align="center">
   <picture>
@@ -76,9 +74,10 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 </p>
 
 <p align="center">
-![Stats](./assets/stats.svg)
-![Top Languages](./assets/top-langs.svg)
-![Pinned](./assets/pin-stats-organization-github-readme-stats.svg)
+<sub>
+    <code>41 repos</code> &nbsp;·&nbsp; <code>11 stars</code> &nbsp;·&nbsp; <code>4 followers</code> &nbsp;·&nbsp;
+    <img src="https://komarev.com/ghpvc/?username=tonmoy007&label=views&color=00d4ff&style=flat-square" alt="profile views" />
+  </sub>
 </p>
 
 <br>
