@@ -44,7 +44,7 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 
 ## 📦 Featured Work
 
-<p align="center">
+<!--<p align="center">
     <table align="center" border=0>
         <tr>
             <td valign="middle" align="center" border="none"><a href="https://github.com/tonmoy007/forge-plugins"><img src="assets/pin-stats-forge-plugins-github-readme-stats.svg" alt="repo stats" width="100%"></a></td>
@@ -54,8 +54,22 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
             <td valign="middle" align="center" border="none"><a href="https://github.com/tonmoy007/auri"><img src="assets/pin-stats-auri-github-readme-stats.svg" alt="repo stats" width="100%"></a></td>
         </tr>
     </table>
-</p>
-
+</p>-->
+<div align="center">
+  <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+    <a href="https://github.com/tonmoy007/forge-plugins">
+      <img src="assets/pin-stats-forge-plugins-github-readme-stats.svg" alt="repo stats" width="280px">
+    </a>
+    <a href="https://github.com/tonmoy007/religious-study">
+      <img src="assets/pin-stats-religious-study-github-readme-stats.svg" alt="repo stats" width="280px">
+    </a>
+  </div>
+  <div style="margin-top: 20px;">
+    <a href="https://github.com/tonmoy007/auri">
+      <img src="assets/pin-stats-auri-github-readme-stats.svg" alt="repo stats" width="280px">
+    </a>
+  </div>
+</div>
 
 
 <br>
