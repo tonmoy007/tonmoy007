@@ -40,9 +40,6 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 
 ## 📦 Featured Work
 
-### 🔧 [forge-os](https://github.com/tonmoy007/forge-os)
-> Local-first SDLC orchestration CLI · 12-stage lifecycle · Quality gates · Replayable agent runs
-> `🟢 Active`
 
 ### 🔌 [forge-plugins](https://github.com/tonmoy007/forge-plugins)
 > Gated orchestrator for Claude Code · REQ-ID traceability · Cost-capped background agents
