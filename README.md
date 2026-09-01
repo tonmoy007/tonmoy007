@@ -102,7 +102,7 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
   </table>
 </p>-->
 <div align="center">
-    <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;">
+    <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: center;">
         <img src="assets/stats.svg" alt="profile stats" width="45%">
         <img src="assets/top-langs.svg" alt="top languages" width="45%">
     </div>
