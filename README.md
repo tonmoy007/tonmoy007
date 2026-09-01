@@ -61,23 +61,26 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 ---
 
 ## 📊 Activity & Stats
-
+<p align="center">
 <picture>
   <source
     srcset="assets/stats.svg"
     media="(prefers-color-scheme: dark)"
   />
-  <source
-    srcset="assets/top-langs.svg"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  
-  <source
-    srcset="assets/pin-stats-organization-github-readme-stats.svg"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
+  <img src="assets/stats.svg" alt="profile stats" width="30%">
 </picture>
-
+  <picture>
+    <source srcset="assets/top-langs.svg"
+      media="(prefers-color-scheme: dark)" />
+    <img src="assets/top-langs.svg" alt="top languages" width="30%"/>
+  </picture>
+  
+  <picture>
+    <source srcset="assets/pin-stats-organization-github-readme-stats.svg"
+      media="(prefers-color-scheme: dark)" />
+    <img src="assets/pin-stats-organization-github-readme-stats.svg" alt="top languages" width="30%"/>
+  </picture>
+</p>
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/snake.svg">
