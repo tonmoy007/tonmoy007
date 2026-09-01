@@ -31,12 +31,26 @@ jobs:
           path: assets/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate pin card
+      - name: Generate pin card 1
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
           options: username=${{ github.repository_owner }}&repo=forge-plugins&theme=dark
-          path: assets/pin-stats-organization-github-readme-stats.svg
+          path: assets/pin-stats-forge-plugins-github-readme-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate pin card 2
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=religious-study&theme=dark
+          path: assets/pin-stats-religious-study-github-readme-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate pin card 3
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=auri&theme=dark
+          path: assets/pin-stats-auri-github-readme-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards

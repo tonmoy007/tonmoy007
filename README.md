@@ -40,57 +40,76 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 
 ## 📦 Featured Work
 
-
 ### 🔌 [forge-plugins](https://github.com/tonmoy007/forge-plugins)
-> Gated orchestrator for Claude Code · REQ-ID traceability · Cost-capped background agents
-> `🟢 Active`
+
+<p align="center">
+    <picture>
+        <source
+          srcset="assets/pin-stats-forge-plugins-github-readme-stats.svg"
+          media="(prefers-color-scheme: dark)"
+        />
+        <img src="assets/pin-stats-forge-plugins-github-readme-stats.svg" alt="repo stats" width="30%">
+      </picture>
+</p>
 
 ### 📚 [religious-study](https://github.com/tonmoy007/religious-study)
-> Comprehensive Obsidian vault · 12+ scripture traditions · Cross-referenced analysis
-> `🟢 Active`
+
+<p align="center">
+    <picture>
+        <source
+          srcset="assets/pin-stats-religious-study-github-readme-stats.svg"
+          media="(prefers-color-scheme: dark)"
+        />
+        <img src="assets/pin-stats-religious-study-github-readme-stats.svg" alt="repo stats" width="30%">
+      </picture>
+</p>
 
 ### 🕯️ [auri](https://github.com/tonmoy007/auri)
-> Anonymous AI-driven confession booth · Whisper STT · Voice modulation · 3D R3F booth · Telegram delivery
-> `🟢 Active`
+
+<p align="center">
+    <picture>
+        <source
+          srcset="assets/pin-stats-auri-github-readme-stats.svg"
+          media="(prefers-color-scheme: dark)"
+        />
+        <img src="assets/pin-stats-auri-github-readme-stats.svg" alt="repo stats" width="30%">
+      </picture>
+</p>
 
 <br>
 
 ---
 
 ## 📊 Activity & Stats
-<p align="center">
-<picture>
-  <source
-    srcset="assets/stats.svg"
-    media="(prefers-color-scheme: dark)"
-  />
-  <img src="assets/stats.svg" alt="profile stats" width="30%">
-</picture>
+
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;" >
+
   <picture>
-    <source srcset="assets/top-langs.svg"
-      media="(prefers-color-scheme: dark)" />
+    <source
+      srcset="assets/stats.svg"
+      media="(prefers-color-scheme: dark)"
+    />
+    <img src="assets/stats.svg" alt="profile stats" width="30%">
+  </picture>
+  <picture>
+    <source srcset="assets/top-langs.svg" media="(prefers-color-scheme: dark)" />
     <img src="assets/top-langs.svg" alt="top languages" width="30%"/>
   </picture>
-  
-  <picture>
-    <source srcset="assets/pin-stats-organization-github-readme-stats.svg"
-      media="(prefers-color-scheme: dark)" />
-    <img src="assets/pin-stats-organization-github-readme-stats.svg" alt="top languages" width="30%"/>
-  </picture>
-</p>
-<p align="center">
+</div>
+
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/snake.svg">
     <img src="assets/snake.svg" alt="contribution snake animation" width="70%">
   </picture>
-</p>
+</div>
 
-<p align="center">
-<sub>
+<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+<sub style="display: flex; gap: 10px; align-items: center; justify-content: center; ">
     <code>41 repos</code> &nbsp;·&nbsp; <code>11 stars</code> &nbsp;·&nbsp; <code>4 followers</code> &nbsp;·&nbsp;
     <img src="https://komarev.com/ghpvc/?username=tonmoy007&label=views&color=00d4ff&style=flat-square" alt="profile views" />
   </sub>
-</p>
+</div>
 
 <br>
 
@@ -98,7 +117,7 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 
 ## 🏆 Achievements
 
-<p align="center">
+<p align="center" style="display: flex; gap: 10px; align-items: center; justify-content: center; ">
   <img src="https://img.shields.io/badge/Pair%20Extraordinaire-x2-00d4ff?style=flat-square&labelColor=0d0d1a" />
   <img src="https://img.shields.io/badge/Pull%20Shark-x2-a855f7?style=flat-square&labelColor=0d0d1a" />
   <img src="https://img.shields.io/badge/YOLO-f472b6?style=flat-square&labelColor=0d0d1a" />
