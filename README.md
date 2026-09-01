@@ -13,7 +13,7 @@
 
 I engineer **deterministic infrastructure for AI agent workflows** — gated SDLC pipelines that make agent-driven development auditable, replayable, and production-safe. From orchestration engines to high-throughput scraping systems, I build the layer between AI decisions and production reality.
 
-📍 Bangladesh · 🐙 [@tonmoy007](https://github.com/tonmoy007) · 💼 [in/tonmoy46](https://linkedin.com/in/tonmoy46)
+📍 Bangladesh · 🐙 [@tonmoy007](https://github.com/tonmoy007) · 💼 [in/tonmoy46](https://linkedin.com/in/tonmoy46) ·  <img src="https://komarev.com/ghpvc/?username=tonmoy007&label=views&color=00d4ff&style=flat-square" alt="profile views" />
 
 <br>
 
@@ -82,34 +82,32 @@ I engineer **deterministic infrastructure for AI agent workflows** — gated SDL
 
 ## 📊 Activity & Stats
 
-<div style="display: flex; gap: 10px; align-items: center; justify-content: center;" >
+<p align="center">
+  <table>
+    <tr>
+      <td valign="top" align="center">
+        <picture>
+          <source srcset="assets/stats.svg" media="(prefers-color-scheme: dark)" />
+          <img src="assets/stats.svg" alt="profile stats" width="100%">
+        </picture>
+      </td>
+      <td valign="top" align="center">
+        <picture>
+          <source srcset="assets/top-langs.svg" media="(prefers-color-scheme: dark)" />
+          <img src="assets/top-langs.svg" alt="top languages" width="100%"/>
+        </picture>
+      </td>
+    </tr>
+  </table>
+</p>
 
-  <picture>
-    <source
-      srcset="assets/stats.svg"
-      media="(prefers-color-scheme: dark)"
-    />
-    <img src="assets/stats.svg" alt="profile stats" width="30%">
-  </picture>
-  <picture>
-    <source srcset="assets/top-langs.svg" media="(prefers-color-scheme: dark)" />
-    <img src="assets/top-langs.svg" alt="top languages" width="30%"/>
-  </picture>
-</div>
-
-<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/snake.svg">
     <img src="assets/snake.svg" alt="contribution snake animation" width="70%">
   </picture>
-</div>
+</p>
 
-<div style="display: flex; gap: 10px; align-items: center; justify-content: center;">
-<sub style="display: flex; gap: 10px; align-items: center; justify-content: center; ">
-    <code>41 repos</code> &nbsp;·&nbsp; <code>11 stars</code> &nbsp;·&nbsp; <code>4 followers</code> &nbsp;·&nbsp;
-    <img src="https://komarev.com/ghpvc/?username=tonmoy007&label=views&color=00d4ff&style=flat-square" alt="profile views" />
-  </sub>
-</div>
 
 <br>
 
