@@ -13,7 +13,7 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #28c840;
+            fill: #4493f8;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -51,13 +51,13 @@
     }
 
     .rank-circle-rim {
-      stroke: #28c840;
+      stroke: #4493f8;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #28c840;
+      stroke: #4493f8;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 163.36500989139077;
+        stroke-dashoffset: 163.54100947982718;
       }
     }
   
