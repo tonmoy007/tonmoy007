@@ -19,7 +19,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&title_color=28c840&hide_border=true
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=dark&title_color=4493f8&hide_border=true
           path: assets/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -27,7 +27,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=dark&hide_border=true&title_color=28c840
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=dark&hide_border=true&title_color=4493f8
           path: assets/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -35,21 +35,21 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=${{ github.repository_owner }}&repo=forge-plugins&theme=dark&hide_border=true
+          options: username=${{ github.repository_owner }}&repo=forge-plugins&theme=dark&hide_border=true&title_color=4493f8
           path: assets/pin-stats-forge-plugins-github-readme-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate pin card 2
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=${{ github.repository_owner }}&repo=religious-study&theme=dark&hide_border=true
+          options: username=${{ github.repository_owner }}&repo=religious-study&theme=dark&hide_border=true&title_color=4493f8
           path: assets/pin-stats-religious-study-github-readme-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate pin card 3
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=${{ github.repository_owner }}&repo=auri&theme=dark&hide_border=true
+          options: username=${{ github.repository_owner }}&repo=auri&theme=dark&hide_border=true&title_color=4493f8
           path: assets/pin-stats-auri-github-readme-stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
